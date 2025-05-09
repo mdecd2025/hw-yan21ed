@@ -354,7 +354,45 @@
 <li><strong> </strong><strong>設置路徑與物體交互</strong><strong>: </strong>手動設置機器人行駛的路徑；設定物體之間的交互規則。</li>
 </ol>
 <p><strong>7.</strong><strong>測試與調整</strong><strong>: </strong>點擊「Play」按鈕開始模擬運行，檢查場景中的物體和機器人的行為；根據需要調整物理屬性、機器人控制器、場景佈局等。</p>
-<p>6.希望可以手把手一步步說明該如何利用圖形介面 menu 建立這個場景, 過程中有那些要點必須特別注意?</p><h1>Homework</h1>
+<p>6.希望可以手把手一步步說明該如何利用圖形介面 menu 建立這個場景, 過程中有那些要點必須特別注意?</p>
+<p>要在 Webots 中透過圖形使用者介面（GUI）中的選單來建立場景，請按照以下步驟進行：</p>
+<ol>
+<li><strong>啟動</strong><strong> Webots</strong><strong>：</strong>首先，啟動 Webots 應用程式。</li>
+<li><strong>創建新世界：</strong>
+<ul>
+<li>在主選單中，點擊「<strong>File</strong>」&gt;「<strong>New World...</strong>」。</li>
+<li>系統會開啟一個新的空白世界。</li>
+</ul>
+</li>
+<li><strong>添加環境元素：</strong>
+<ul>
+<li>在左側的「<strong>Scene Tree</strong>」（場景樹）面板中，右鍵點擊「<strong>root</strong>」，選擇「<strong>Add</strong>」&gt;「<strong>Objects</strong>」。</li>
+<li>從彈出的對話框中，選擇您想添加的環境元素，例如地面、牆壁等。</li>
+</ul>
+</li>
+<li><strong>添加機器人：</strong>
+<ul>
+<li>同樣在「<strong>Scene Tree</strong>」中，右鍵點擊「<strong>root</strong>」，選擇「<strong>Add</strong>」&gt;「<strong>Robot</strong>」。</li>
+<li>從列表中選擇您想要添加的機器人模型。</li>
+</ul>
+</li>
+<li><strong>配置機器人和物件：</strong>
+<ul>
+<li>選中場景樹中的機器人或物件，在右側的「<strong>Field</strong>」面板中，可以修改其屬性，例如位置、旋轉角度等。</li>
+</ul>
+</li>
+<li><strong>保存場景：</strong>
+<ul>
+<li>完成場景設置後，點擊「<strong>File</strong>」&gt;「<strong>Save World As...</strong>」，為您的場景命名並保存。</li>
+</ul>
+</li>
+</ol>
+<p><strong>注意事項：</strong></p>
+<ul>
+<li><strong>物理屬性設置：</strong> 確保為物件設置正確的物理屬性，如質量、摩擦力等，以保證模擬的真實性。</li>
+<li><strong>相對位置：</strong> 添加物件時，注意它們之間的相對位置，避免重疊或不合理的布局。</li>
+<li><strong>測試場景：</strong> 在完成場景設置後，建議運行模擬，檢查機器人和物件的互動是否符合預期，並根據需要進行調整。</li>
+</ul><h1>Homework</h1>
 <p>作業 (30%)</p>
 <p>HW1 (5%): <span style="background-color: #ffff00;">建立由 Box 組成的平面四連桿機構 Webots 模擬場景</span></p>
 <p style="padding-left: 30px;">part1:</p>
