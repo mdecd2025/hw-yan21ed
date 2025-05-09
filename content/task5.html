@@ -144,6 +144,150 @@ img.add_border {
         </header>
     <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='Homework.html'>Next</a> >> Homework<br /><h1>task5</h1>
 <p>1.請用繁體中文詳細說明下列資料:<span> </span><a href="https://cyberbotics.com/doc/guide/introduction-to-webots">https://cyberbotics.com/doc/guide/introduction-to-webots </a></p>
+<p>Webots 是一款專業的開源移動機器人仿真軟件，由 Cyberbotics 公司開發。它提供了一個快速原型設計環境，讓使用者可以在虛擬的 3D 空間中創建具有物理特性的機器人及其環境。Webots 最初由瑞士洛桑聯邦理工學院（EPFL）開發，後於 2018 年 12 月起以 Apache 2.0 許可證開源，廣泛應用於教育、研究和工業領域。它的核心基於開源物理引擎 ODE（Open Dynamics Engine）和 OpenGL 技術，支持 Windows、Linux 和 macOS 操作系統，並兼容多種編程語言，包括 C、C++、Python、Java 和 MATLAB。</p>
+<p>簡單來說，Webots 是一個強大的工具，用於模擬機器人的行為、測試控制算法，並在虛擬環境中驗證設計，而無需直接使用實體機器人。</p>
+<p><strong>我可以用</strong><strong> Webots </strong><strong>做什麼？</strong></p>
+<p>Webots 的功能非常豐富，以下是一些主要用途：</p>
+<ol>
+<li><strong>機器人設計與建模</strong>：
+<ul>
+<li>使用內建的 3D 編輯器創建機器人模型，或導入外部 CAD 文件（如 Blender 或 URDF 格式）。</li>
+<li>設定機器人的物理屬性，例如質量、摩擦力、關節等。</li>
+</ul>
+</li>
+<li><strong>仿真與測試</strong>：
+<ul>
+<li>模擬機器人在不同環境中的行為，如輪式機器人、腿式機器人或飛行機器人。</li>
+<li>測試各種傳感器（如距離傳感器、攝影機、陀螺儀）和執行器（如馬達、驅動輪）的運作。</li>
+</ul>
+</li>
+<li><strong>控制算法開發</strong>：
+<ul>
+<li>編寫控制器程式，讓機器人執行特定任務，例如避障、巡線或協作。</li>
+<li>支持多種編程語言，適合不同技術背景的使用者。</li>
+</ul>
+</li>
+<li><strong>教育與研究</strong>：
+<ul>
+<li>用於機器人學課程，教授運動學、動力學和人工智能等概念。</li>
+<li>研究多智能體系統（如群體智慧）或自適應行為（如神經網絡、遺傳算法）。</li>
+</ul>
+</li>
+<li><strong>真實機器人接口</strong>：
+<ul>
+<li>將模擬結果轉移到真實機器人（如 e-puck、Nao、DARwIn-OP），實現虛實結合。</li>
+</ul>
+</li>
+<li><strong>比賽與原型開發</strong>：
+<ul>
+<li>參與機器人競賽（如 Robotstadium）或快速開發機器人原型，應用於汽車、航空航天或消費品行業。</li>
+</ul>
+</li>
+</ol>
+<p>總之，Webots 適合用來模擬、驗證和優化機器人系統，無論是單一機器人還是多機器人協作場景。</p>
+<p><strong>使用</strong><strong> Webots </strong><strong>需要知道什麼？</strong></p>
+<p>要有效使用 Webots，您需要掌握以下知識和技能：</p>
+<ol>
+<li><strong>基本電腦操作</strong>：
+<ul>
+<li>熟悉 Windows、Linux 或 macOS 操作系統的基本使用。</li>
+<li>確保您的電腦符合最低硬體要求：雙核 CPU（建議四核）、2GB RAM（建議更多）、支援 OpenGL 3.3 的顯卡（推薦 NVIDIA 或 AMD）。</li>
+</ul>
+</li>
+<li><strong>編程基礎</strong>：
+<ul>
+<li>熟悉至少一種 Webots 支持的語言：C、C++、Python、Java 或 MATLAB。</li>
+<li>理解基本的程式設計概念，如變數、迴圈、條件語句等。</li>
+</ul>
+</li>
+<li><strong>機器人學概念</strong>：
+<ul>
+<li>了解機器人的基本組成，例如傳感器、執行器和控制器。</li>
+<li>對物理模擬（如質量、摩擦力、碰撞檢測）有初步認識。</li>
+</ul>
+</li>
+<li><strong>Webots </strong><strong>介面與功能</strong>：
+<ul>
+<li>學習 Webots 的圖形介面，包括場景樹（Scene Tree）、3D 視圖和文字編輯器。</li>
+<li>熟悉如何創建「世界」（World）、添加物件和機器人，以及編寫控制器。</li>
+</ul>
+</li>
+<li><strong>官方資源</strong>：
+<ul>
+<li>閱讀 Webots 的《用戶指南》（User Guide）和《參考手冊》（Reference Manual），這兩個文件提供了詳細的操作說明和 API 介紹。</li>
+<li>使用內建的教學範例（Tutorials）逐步學習。</li>
+</ul>
+</li>
+</ol>
+<p>初學者可以從簡單的任務開始，例如讓一個輪式機器人移動，然後逐步進階到更複雜的應用。</p>
+<p><strong>如何獲得</strong><strong> Webots </strong><strong>的用戶支持？</strong></p>
+<p>Webots 提供了多種用戶支持管道：</p>
+<ol>
+<li><strong>官方文件</strong>：
+<ul>
+<li>《用戶指南》和《參考手冊》可在 Webots 官網（<a href="https://cyberbotics.xn--com),-pn2hzxxpp7kma359dskcfx3f6bfr7dx74f65kl00ie27a/">https://cyberbotics.com<span>）或軟件內獲取，提供全面的操作和</span></a>API 說明。</li>
+</ul>
+</li>
+<li><strong>社區支持</strong>：
+<ul>
+<li><strong>GitHub </strong><strong>討論區</strong>：Webots 的開源代碼托管於 GitHub（<a href="https://github.com/cyberbotics/webots%EF%BC%89%EF%BC%8C%E6%82%A8%E5%8F%AF%E4%BB%A5%E5%9C%A8%E3%80%8CDiscussions%E3%80%8D%E5%8D%80%E5%9F%9F%E6%8F%90%E5%95%8F%E6%88%96%E6%90%9C%E7%B4%A2%E8%A7%A3%E7%AD%94%E3%80%82">https://github.com/cyberbotics/webots<span>），您可以在「</span>Discussions<span>」區域提問或搜索解答。</span></a></li>
+<li><strong>論壇與社群</strong>：加入 Webots 的 Discord 伺服器或相關機器人學社群，與其他使用者交流。</li>
+</ul>
+</li>
+<li><strong>技術支持</strong>：
+<ul>
+<li>如果您是付費用戶（Webots 有商業版本），可以通過 Cyberbotics 的官方郵箱（<a href="mailto:support@cyberbotics.com">support@cyberbotics.com</a>）獲得專業支持。</li>
+<li>開源版本主要依賴社區自助，但問題通常也能在 GitHub 上得到回應。</li>
+</ul>
+</li>
+<li><strong>教學資源</strong>：
+<ul>
+<li>Webots 內建「導覽之旅」（Guided Tour），展示範例世界和功能。</li>
+<li>B 站或 YouTube 上有許多中文和英文教學影片，例如「Webots 超詳細入門教程」。</li>
+</ul>
+</li>
+</ol>
+<p>建議先查閱官方文件和範例，若無法解決問題，再向社區或官方求助。</p>
+<p><strong>Webots </strong><strong>仿真中的「世界」（</strong><strong>World</strong><strong>）是什麼？</strong></p>
+<p>在 Webots 中，「世界」（World）是指機器人及其環境的 3D 虛擬描述。它是一個完整的仿真場景，包含以下元素：</p>
+<ul>
+<li><strong>物件描述</strong>：每個物件的位置、方向、幾何形狀、外觀（如顏色、紋理）和物理屬性（如質量、摩擦係數）。</li>
+<li><strong>層次結構</strong>：世界以樹狀結構組織（基於 VRML97 格式），物件可包含子物件，例如一個機器人可能包含輪子、傳感器和關節。</li>
+<li><strong>文件格式</strong>：世界儲存在 .wbt 文件中，通常位於 Webots 項目的 worlds 子目錄。</li>
+</ul>
+<p>世界文件不包含機器人的控制器程式，只指定每個機器人使用的控制器名稱。它定義了仿真的環境和初始條件，例如地面、地形、光線和障礙物。</p>
+<p><strong>Webots </strong><strong>中的「控制器」（</strong><strong>Controller</strong><strong>）是什麼？</strong></p>
+<p>「控制器」（Controller）是控制 Webots 中機器人行為的程式。它負責：</p>
+<ul>
+<li><strong>讀取傳感器數據</strong>：如距離傳感器或攝影機的輸入。</li>
+<li><strong>執行邏輯運算</strong>：根據數據計算機器人的動作。</li>
+<li><strong>發送指令</strong>：控制執行器，例如讓馬達轉動或輪子移動。</li>
+</ul>
+<p><strong>特性</strong>：</p>
+<ul>
+<li><strong>編程語言</strong>：可用 C、C++、Java、Python 或 MATLAB 編寫。</li>
+<li><strong>獨立進程</strong>：每個控制器作為 Webots 的子進程運行，不與主程式共享記憶體，可在不同 CPU 核心上執行。</li>
+<li><strong>儲存位置</strong>：控制器源文件和編譯後的文件位於項目的 controllers 子目錄。</li>
+</ul>
+<p>例如，一個簡單的控制器可能讓機器人檢測障礙物並轉向避開。同一控制器程式可被多個機器人共用，但每個機器人會啟動獨立的進程。</p>
+<p><strong>Webots </strong><strong>中的「監督控制器」（</strong><strong>Supervisor Controller</strong><strong>）是什麼？</strong></p>
+<p>「監督控制器」（Supervisor Controller）是一種特殊類型的控制器，具有更高的權限，用於管理和控制整個仿真環境。它的特點包括：</p>
+<ul>
+<li><strong>特權操作</strong>：普通控制器只能控制機器人本身，而監督控制器可以執行以下操作：</li>
+<ul>
+<li>移動機器人到指定位置。</li>
+<li>更改仿真環境（如添加或移除物件）。</li>
+<li>控制仿真流程（如暫停、重啟或錄製影片）。</li>
+</ul>
+<li><strong>啟用方式</strong>：在場景樹中，將機器人的 supervisor 欄位設為 TRUE，該機器人即可使用監督控制器。</li>
+<li><strong>編程語言</strong>：與普通控制器相同，支持 C、C++、Python 等。</li>
+</ul>
+<p><strong>應用場景</strong>：</p>
+<ul>
+<li>在多機器人仿真中，監督控制器可用來協調各機器人的行為。</li>
+<li>用於測試或調試，例如隨機放置障礙物或記錄機器人軌跡。</li>
+</ul>
+<p>例如，一個監督控制器可能監控所有機器人的位置，並在某個機器人偏離路徑時將其重置。</p>
 <p>2.請整理<span> </span><a href="https://cyberbotics.com/doc/guide/introduction-to-webots">https://cyberbotics.com/doc/guide/introduction-to-webots</a><span> </span>中重要的英文單字與用法, 並且針對其中所使用的英文文法逐句說明.</p>
 <p>3.請摘要出下列內容: (放入英文文章內容)</p>
 <p>4.請列出上述文章中的重要的英文單字與解釋, 以及出現在文句中的用法:</p>
@@ -298,7 +442,8 @@ img.add_border {
 <li><em>Example:</em> "Java controller need to be compiled to byte code ('.class' files or '.jar') and then interpreted by a Java Virtual Machine."</li>
 </ul>
 <p>5.請詳細說明如何採手動方式在 Webots 建立下列場景:</p>
-<p>6.希望可以手把手一步步說明該如何利用圖形介面 menu 建立這個場景, 過程中有那些要點必須特別注意?</p><br />About << <a href='About.html'>Previous</a> <a href='Homework.html'>Next</a> >> Homework</div>
+<p>6.希望可以手把手一步步說明該如何利用圖形介面 menu 建立這個場景, 過程中有那些要點必須特別注意?</p>
+<br />About << <a href='About.html'>Previous</a> <a href='Homework.html'>Next</a> >> Homework</div>
         
     <!-- footer -->
       <div class="container">
